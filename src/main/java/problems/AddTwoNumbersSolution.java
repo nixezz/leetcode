@@ -1,7 +1,7 @@
 package problems;
 
 
-public class addTwoNumbersSolution {
+public class AddTwoNumbersSolution {
     public static class ListNode {
         int val;
         ListNode next;
