@@ -3,7 +3,7 @@ package problems;
 import java.util.HashSet;
 
 public class AddDigitsSolution {
-    private static int getSumDigits(int x) {
+    private int getSumDigits(int x) {
         int total = 0;
         while (x > 0) {
             total += x % 10;
@@ -12,7 +12,7 @@ public class AddDigitsSolution {
         return total;
     }
 
-    public static int addDigits(int num) {
+    public int addDigits(int num) {
         if(num < 10){
             return num;
         }
